@@ -1,0 +1,100 @@
+Name      Null?    Type         
+--------- -------- ------------ 
+FEEID     NOT NULL CHAR(10)     
+TYPE               VARCHAR2(20) 
+FEEAMOUNT          NUMBER(5,2)  
+DUEDATE            DATE         
+Name              Null?    Type        
+----------------- -------- ----------- 
+BILLINGID         NOT NULL CHAR(10)    
+FEE_FEEID         NOT NULL CHAR(10)    
+TOTALAMOUNT                NUMBER(5,2) 
+SUBTOTAL                   NUMBER(5,2) 
+SALESTAX                   NUMBER(2,2) 
+STUDENT_STUDENTID NOT NULL CHAR(10)    
+Name                Null?    Type         
+------------------- -------- ------------ 
+STUDENTID           NOT NULL CHAR(10)     
+FNAME                        VARCHAR2(20) 
+LNAME                        VARCHAR2(20) 
+BIRTHDATE                    DATE         
+PARENT_ReferenceNo. NOT NULL CHAR(10)     
+Name         Null?    Type         
+------------ -------- ------------ 
+ReferenceNo. NOT NULL CHAR(10)     
+ContactNo.            CHAR(10)     
+FNAME                 VARCHAR2(20) 
+LNAME                 VARCHAR2(20) 
+Name                   Null?    Type        
+---------------------- -------- ----------- 
+SALEID                 NOT NULL CHAR(10)    
+TOTALPRICE                      NUMBER(5,2) 
+SALESTAX                        NUMBER(2,2) 
+SUBTOTAL                        NUMBER(5,2) 
+GYMMERCHANDISE_MERCHID NOT NULL CHAR(10)    
+STUDENT_STUDENTID      NOT NULL CHAR(10)    
+Name     Null?    Type         
+-------- -------- ------------ 
+MERCHID  NOT NULL CHAR(10)     
+PRICE             NUMBER(5,2)  
+TYPE              VARCHAR2(20) 
+QUANTITY          NUMBER(2)    
+Name                               Null?    Type         
+---------------------------------- -------- ------------ 
+CLASSDAYS                          NOT NULL VARCHAR2(20) 
+GYMNASTICSCLASS_GymnasticsClassNo. NOT NULL CHAR(10)     
+STUDENT_STUDENTID                  NOT NULL CHAR(10)     
+ASSESSMENT                         NOT NULL VARCHAR2(50) 
+CLASSLENGTH                                 VARCHAR2(20) 
+SKILLLEVEL                                  VARCHAR2(20) 
+Name                Null?    Type         
+------------------- -------- ------------ 
+GymnasticsClassNo.  NOT NULL CHAR(10)     
+CLASSTIMINGS                 VARCHAR2(50) 
+CLASSPRICE                   NUMBER(5,2)  
+CLASSLEVEL                   VARCHAR2(10) 
+EMPLOYEE_EMPLOYEEID NOT NULL CHAR(10)     
+Name       Null?    Type         
+---------- -------- ------------ 
+EMPLOYEEID NOT NULL CHAR(10)     
+FNAME               VARCHAR2(20) 
+LNAME               VARCHAR2(20) 
+JOBTITLE            VARCHAR2(20) 
+ContactNo.          CHAR(10)     
+SKILLLEVEL          VARCHAR2(10) 
+Name                   Null?    Type         
+---------------------- -------- ------------ 
+CLASSDAYS              NOT NULL VARCHAR2(20) 
+ASSESSMENT             NOT NULL VARCHAR2(50) 
+CLASSLENGTH                     VARCHAR2(20) 
+STUDENT_STUDENTID      NOT NULL CHAR(10)     
+COMPETETIVETEAM_TEAMID NOT NULL CHAR(10)     
+SKILLLEVEL                      VARCHAR2(20) 
+Name                Null?    Type         
+------------------- -------- ------------ 
+TEAMID              NOT NULL CHAR(10)     
+TRAININGTIMES                VARCHAR2(50) 
+TEAMLEVEL                    VARCHAR2(10) 
+EMPLOYEE_EMPLOYEEID NOT NULL CHAR(10)     
+Name                   Null?    Type         
+---------------------- -------- ------------ 
+MEETID                 NOT NULL CHAR(10)     
+TIME                            VARCHAR2(10) 
+Date                            DATE         
+LOCATION                        VARCHAR2(30) 
+COMPETETIVETEAM_TEAMID NOT NULL CHAR(10)     
+Name                                  Null?    Type         
+------------------------------------- -------- ------------ 
+CLASSDAYS                             NOT NULL VARCHAR2(20) 
+CHEERLEADINGCLASS_CheerleaderClassNo. NOT NULL CHAR(10)     
+STUDENT_STUDENTID                     NOT NULL CHAR(10)     
+ASSESSMENT                            NOT NULL VARCHAR2(50) 
+CLASSLENGTH                                    VARCHAR2(20) 
+SKILLLEVEL                                     VARCHAR2(20) 
+Name                Null?    Type         
+------------------- -------- ------------ 
+CheerleaderClassNo. NOT NULL CHAR(10)     
+CLASSTIMINGS                 VARCHAR2(50) 
+CLASSPRICE                   NUMBER(5,2)  
+CLASSLEVEL                   VARCHAR2(10) 
+EMPLOYEE_EMPLOYEEID NOT NULL CHAR(10)     

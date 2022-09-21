@@ -1,0 +1,243 @@
+FEEID      TYPE                  FEEAMOUNT DUEDATE  
+---------- -------------------- ---------- ---------
+100000000F Merchandise                  40 18-DEC-21
+200000000F Lesson Beginner              30 10-OCT-21
+300000000F Merchandise                  20 20-JAN-21
+400000000F Lesson Intermediate          40 09-FEB-21
+500000000F Registration                100 28-AUG-21
+600000000F Merchandise                  40 24-FEB-21
+700000000F Lesson Advanced              50 05-MAY-21
+800000000F Registration                100 23-APR-21
+900000000F Merchandise                  10 02-MAR-21
+110000000F Merchandise                  40 12-JUL-21
+
+10 rows selected. 
+
+
+BILLINGID  FEE_FEEID  TOTALAMOUNT   SUBTOTAL   SALESTAX STUDENT_ST
+---------- ---------- ----------- ---------- ---------- ----------
+RXG66RTI9D 100000000F          31         41        .07 111111121S
+XOH11MDC2X 200000000F          32         44        .07 111111122S
+UNG72LIJ3L 300000000F          37         40        .07 111111123S
+YLJ15CJS4N 400000000F          35         50        .07 111111124S
+LFT96IGV1D 500000000F          45         42        .07 111111125S
+PKK08XQE7I 600000000F          39         41        .07 111111126S
+IYR55KSS5E 700000000F          38         38        .07 111111127S
+IHM77WXG8R 800000000F          47         40        .07 111111128S
+VYD03QEC1Q 900000000F          38         46        .07 111111129S
+WOU51FOC2S 110000000F          46         46        .07 111111130S
+
+10 rows selected. 
+
+
+STUDENTID  FNAME                LNAME                BIRTHDATE PARENT_Ref
+---------- -------------------- -------------------- --------- ----------
+111111111S Joe                  Wan                  10-DEC-01 110000000P
+111111112S Sarah                Fetzko               08-FEB-04 120000000P
+111111113S Jennifer             Shah                 09-OCT-03 130000000P
+111111114S Tom                  Daniels              15-JAN-02 140000000P
+111111115S Ralph                Khamis               24-FEB-04 150000000P
+111111116S Max                  Smith                26-MAY-07 160000000P
+111111117S Eric                 Johnson              29-APR-00 170000000P
+111111118S Jackson              Tolbert              03-JUN-06 180000000P
+111111119S Meredith             Eggers               05-JUL-04 190000000P
+111111120S Maria                Sanders              16-AUG-01 200000000P
+111111121S Max                  Wan                  10-DEC-01 130000000P
+
+STUDENTID  FNAME                LNAME                BIRTHDATE PARENT_Ref
+---------- -------------------- -------------------- --------- ----------
+111111122S Mills                Hasket               08-FEB-04 220000000P
+111111123S Jen                  Shien                09-OCT-03 230000000P
+111111124S Tommy                Alexander            15-JAN-02 240000000P
+111111125S Kevin                Smithinson           24-FEB-04 250000000P
+111111126S Maxwell              Smithy               26-MAY-07 260000000P
+111111127S Eric                 Bobby                29-APR-00 270000000P
+111111128S Matthew              Tolbert              03-JUN-06 180000000P
+111111129S Johnathan            Eggers               05-JUL-04 190000000P
+111111130S Josie                Sanders              16-AUG-01 200000000P
+
+20 rows selected. 
+
+
+ReferenceN ContactNo. FNAME                LNAME               
+---------- ---------- -------------------- --------------------
+110000000P 3171234567 Eddy                 Wan                 
+120000000P 3171534667 Stewart              Fetzko              
+130000000P 7651234567 Priyen               Shah                
+140000000P 8340284721 Robert               Daniels             
+150000000P 8256781365 Leo                  Khamis              
+160000000P 3141224557 John                 Smith               
+170000000P 8492947583 Karen                Johnson             
+180000000P 9572831632 Emma                 Tolbert             
+190000000P 8902703257 Mitchell             Eggers              
+200000000P 3948583920 Michael              Sanders             
+220000000P 7652384234 Michael              hasket              
+
+ReferenceN ContactNo. FNAME                LNAME               
+---------- ---------- -------------------- --------------------
+230000000P 3234234563 Karen                Shein               
+240000000P 3922342240 Rose                 Alexander           
+250000000P 3943242342 Hayden               Smithinson          
+260000000P 4157657462 Patrick              Smithy              
+270000000P 9255796674 Loreli               Bobby               
+
+16 rows selected. 
+
+
+SALEID     TOTALPRICE   SALESTAX   SUBTOTAL GYMMERCHAN STUDENT_ST
+---------- ---------- ---------- ---------- ---------- ----------
+RXG66RTI9D        147        .07        155 111111112M 111111111S
+XOH11MDC2X        188        .07        198 111111113M 111111112S
+UNG72LIJ3L        107        .07        110 111111114M 111111113S
+YLJ15CJS4N        102        .07        104 111111115M 111111114S
+LFT96IGV1D        109        .07        111 111111116M 111111115S
+DZW44CMR5O        185        .07        186 111111117M 111111116S
+QJK76CAL8D        187        .07        192 111111118M 111111117S
+FDB23WNG3Q        190        .07        194 111111119M 111111118S
+XBP57NFK6F        142        .07        151 111111120M 111111119S
+KKW44DTF7M        159        .07        167 111111121M 111111120S
+
+10 rows selected. 
+
+
+MERCHID         PRICE TYPE                   QUANTITY
+---------- ---------- -------------------- ----------
+111111112M         40 Shorts Red                   10
+111111113M         40 Shorts Blue                  15
+111111114M         40 Shorts Black                  8
+111111115M         40 Shorts White                 20
+111111116M         20 Sweatband Red                30
+111111117M         20 Sweatband Blue               15
+111111118M         20 Sweatband Black              20
+111111119M         20 Sweatband White              10
+111111120M         60 Leotard White                 6
+111111121M         60 Leotard Black                 3
+
+10 rows selected. 
+
+
+CLASSDAYS            GYMNASTICS STUDENT_ST ASSESSMENT                                         CLASSLENGTH          SKILLLEVEL          
+-------------------- ---------- ---------- -------------------------------------------------- -------------------- --------------------
+Monday               UOD94JYF0A 111111111S Good                                               2 HOURS                                  
+Monday               KLF60VIC5R 111111113S Average                                            1 HOURS              10/10               
+Tuesday              QPX07TRK5T 111111114S Bad                                                2 HOURS              7/10                
+Monday               DSR51XPS3U 111111115S Good                                               2 HOURS              3/10                
+Wednesday            TVT28MNC5U 111111116S Bad                                                3 HOURS                                  
+Wednesday            FRP83NMU8G 111111117S Good                                               2 HOURS                                  
+Thursday             ESS95BMV8R 111111118S Bad                                                1 HOURS              8/10                
+Thursday             NFW80GHA4K 111111119S Bad                                                1 HOURS                                  
+Thursday             IIV28SGL4Z 111111120S Good                                               1.5 HOURS                                
+
+9 rows selected. 
+
+
+Gymnastics CLASSTIMINGS                                       CLASSPRICE CLASSLEVEL EMPLOYEE_E
+---------- -------------------------------------------------- ---------- ---------- ----------
+UOD94JYF0A 2:00-4:00pm                                                99 beginner   100000000A
+COQ22QLG5P 2:00-4:00pm                                                99 beginner   200000000A
+KLF60VIC5R 4:00-6:00pm                                                99 beginner   300000000A
+QPX07TRK5T 4:00-6:00pm                                                99 beginner   400000000A
+DSR51XPS3U 6:00-8:00pm                                                30 Intermed   500000000A
+TVT28MNC5U 6:00-8:00pm                                                99 advance    600000000A
+FRP83NMU8G 6:00-8:00pm                                                99 beginner   700000000A
+ESS95BMV8R 8:00-10:00pm                                               99 advance    800000000A
+NFW80GHA4K 8:00-10:00pm                                               99 beginner   900000000A
+IIV28SGL4Z 6:00-8:00pm                                                30 Intermed   110000000A
+
+10 rows selected. 
+
+
+EMPLOYEEID FNAME                LNAME                JOBTITLE             ContactNo. SKILLLEVEL
+---------- -------------------- -------------------- -------------------- ---------- ----------
+100000000A Morgan               Tracy                Coach                7573859683 Beginner  
+200000000A Jerald               Roydon               Assistant Coach      5049384756 Intermed  
+300000000A Adaline              Garner               Coach                4857386970 Advanced  
+400000000A Norman               Peck                 Trainer              2736485967 Beginner  
+500000000A Dawn                 Lucas                Coach                9384756478 Intermed  
+600000000A Reese                Herman               Trainer              2938475636 Intermed  
+700000000A Franklin             Mills                Assistant Coach      3587469856 Beginner  
+800000000A Lily                 Thrussell            Coach                9874556984 Intermed  
+900000000A Terry                Braxton              Trainer              2947563758 Advanced  
+110000000A Brandi               Wilson               Assistant Coach      2394859381 Advanced  
+
+10 rows selected. 
+
+
+CLASSDAYS            ASSESSMENT                                         CLASSLENGTH          STUDENT_ST COMPETETIV SKILLLEVEL          
+-------------------- -------------------------------------------------- -------------------- ---------- ---------- --------------------
+01-FEB-2021          COMP-A                                             2HRS                 111111111S 1000000001 7/10                
+01-FEB-2021          COMP-A                                             2HRS                 111111112S 1000000002 4/10                
+02-FEB-2021          COMP-B                                             2HRS                 111111113S 1000000003 5/10                
+02-FEB-2021          COMP-A                                             2HRS                 111111114S 1000000004 6/10                
+03-FEB-2021          COMP-I                                             2HRS                 111111115S 1000000005 9/10                
+03-FEB-2021          COMP-I                                             2HRS                 111111116S 1000000006 10/10               
+03-FEB-2021          COMP-I                                             2HRS                 111111117S 1000000007 7/10                
+04-FEB-2021          COMP-B                                             2HRS                 111111118S 1000000008 8/10                
+04-FEB-2021          COMP-A                                             2HRS                 111111119S 1000000009 6/10                
+05-FEB-2021          COMP-A                                             2HRS                 111111120S 1000000010 3/10                
+
+10 rows selected. 
+
+
+TEAMID     TRAININGTIMES                                      TEAMLEVEL  EMPLOYEE_E
+---------- -------------------------------------------------- ---------- ----------
+1000000001 Monday                                             Advanced   100000000A
+1000000002 Monday                                             Advanced   200000000A
+1000000003 Tuesday                                            Beginner   300000000A
+1000000004 Tuesday                                            Advanced   400000000A
+1000000005 Wednesday                                          Int        500000000A
+1000000006 Wednesday                                          Int        600000000A
+1000000007 Wednesday                                          Int        700000000A
+1000000008 Thursday                                           Beginner   800000000A
+1000000009 Thursday                                           Advanced   900000000A
+1000000010 Friday                                             Advanced   110000000A
+
+10 rows selected. 
+
+
+MEETID     TIME       Date      LOCATION                       COMPETETIV
+---------- ---------- --------- ------------------------------ ----------
+100000000B 1PM        09-FEB-21 Colorado                       1000000001
+200000000B 3PM        09-MAR-21 California                     1000000002
+300000000B 8PM        21-FEB-21 Wisconsin                      1000000003
+400000000B 1PM        12-JUN-21 New York                       1000000004
+500000000B 11AM       15-JUL-21 Colorado                       1000000005
+600000000B 8AM        08-AUG-21 Colorado                       1000000006
+700000000B 1PM        02-SEP-21 New Mexico                     1000000007
+800000000B 1PM        06-JAN-21 Texas                          1000000008
+900000000B 4PM        09-OCT-21 Maine                          1000000009
+110000000B 5PM        25-OCT-21 Colorado                       1000000010
+
+10 rows selected. 
+
+
+CLASSDAYS            CHEERLEADI STUDENT_ST ASSESSMENT                                         CLASSLENGTH          SKILLLEVEL          
+-------------------- ---------- ---------- -------------------------------------------------- -------------------- --------------------
+06-FEB-2021          11100000CL 111111121S CHEER-A                                            1HRS                 5/10                
+07-FEB-2021          16000000CL 111111122S CHEER-A                                            1HRS                 6/10                
+08-FEB-2021          11100000CL 111111123S CHEER-A                                            1HRS                 6/10                
+09-FEB-2021          16000000CL 111111124S CHEER-A                                            1HRS                 7/10                
+10-FEB-2021          14000000CL 111111125S CHEER-A                                            1HRS                 5/10                
+11-FEB-2021          11000000CL 111111126S CHEER-A                                            1HRS                 4/10                
+12-FEB-2021          18000000CL 111111127S CHEER-A                                            1HRS                 3/10                
+13-FEB-2021          11100000CL 111111128S CHEER-A                                            1HRS                 9/10                
+14-FEB-2021          13000000CL 111111129S CHEER-A                                            1HRS                 8/10                
+15-FEB-2021          13000000CL 111111130S CHEER-A                                            1HRS                 5/10                
+
+10 rows selected. 
+
+
+Cheerleade CLASSTIMINGS                                       CLASSPRICE CLASSLEVEL EMPLOYEE_E
+---------- -------------------------------------------------- ---------- ---------- ----------
+11000000CL 2:00-4:00pm                                                99 beginner   100000000A
+12000000CL 6:00-8:00pm                                                99 beginner   100000000A
+13000000CL 2:00-4:00pm                                                99 beginner   100000000A
+14000000CL 2:00-4:00pm                                                99 beginner   200000000A
+15000000CL 8:00-10:00pm                                               99 beginner   300000000A
+16000000CL 2:00-4:00pm                                                99 beginner   400000000A
+17000000CL 6:00-8:00pm                                                30 Interm     600000000A
+18000000CL 6:00-8:00pm                                                99 advance    700000000A
+19000000CL 6:00-8:00pm                                                30 Interm     800000000A
+11100000CL 2:00-4:00pm                                                99 beginner   900000000A
+
+10 rows selected. 
